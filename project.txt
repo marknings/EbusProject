@@ -29,3 +29,34 @@ Git·ÖÖ§²Ù×÷: ´´½¨·ÖÖ§ºó, ·ÖÖ§²Ù×÷²»»áÓ°Ïìmaster·ÖÖ§, µ«ÊÇmaster·ÖÖ§¸Ä±ä»áÓ°ÆäËü·
 --Ìá½»·ÖÖ§ : git push origin branchName ;
 --É¾³ı·ÖÖ§ : git branch -d branchName , Ç¿ÖÆÉ¾³ı·ÖÖ§ git branch -D branchName ;
 --ºÏ²¢·ÖÖ§ : git merge branchName ;
+
+
+
+
+½«html´úÂëÍÏ×§½øÈëchromeÍ¨¹ıfileĞ­Òéä¯ÀÀÊ±£¬·¢ËÍµÄajaxÇëÇó±¾µØÎÄ¼ş£¬»á±¨¿çÓò´íÎó¡£
+
+XMLHttpRequest cannot load file:///E:/webs/extJS/ext-3.3.0/examples/csdn/combobox.txt?_dc=1414738973999. Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https, chrome-extension-resource.
+
+¡¡¡¡½â¾ö°ì·¨ÊÇ¸øchromeÌí¼ÓÆô¶¯²ÎÊı£º--allow-file-access-from-files £¬ÕâÑù±¾µØajaxÇëÇó¾Í²»»á±¨¿çÓò´íÎóÁË¡££¨×¢ÒâÈç¹û¸øchromeÌí¼Ó¶à¸öÆô¶¯²ÎÊı£¬Ã¿¸öÆô¶¯²ÎÊı¡°--¡±Ö®Ç°ÒªÓĞ¿Õ¸ñ¸ô¿ª£¬Èç"C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-file-cookies --allow-file-access-from-files£©
+
+ 
+
+¡¡¡¡ÈçºÎÌí¼ÓchromeÆô¶¯²ÎÊıÒÔ±ãÖ§³ÖfileĞ­ÒéÏÂµÄajaxÇëÇó£¬¾ßÌå¿´Õâ¸ö£ºchromeÎŞ·¨±£´æ±¾µØÉèÖÃcookie½â¾ö°ì·¨
+
+ 
+
+¡¡¡¡Ìí¼ÓÁË--allow-file-access-from-filesÆô¶¯²ÎÊıºó£¬»¹¿ÉÒÔ½â¾ö±¾µØfile¼ÓÔØÎÄ¼ş£¬µ¼ÖÂiframeºÍ¸¸Ò³ÎŞ·¨Ïà»¥·ÃÎÊ£¬window.open´ò¿ªµÄÒ³ÃæÊ¹ÓÃopenerÎªnullµÄÎÊÌâ£¬²Î¿¼£ºchrome±¾µØ²âÊÔ·ÃÎÊiframe£¬parent£¬opener null½â¾ö°ì·¨
+
+
+
+Ô­´´ÎÄÕÂ£¬×ªÔØÇë×¢Ã÷³ö´¦£ºÅäÖÃchromeÖ§³Ö±¾µØ£¨fileĞ­Òé£©ajaxÇëÇó 2014-10-31ÆÀÂÛ(0)Web¿ª·¢Íø
+ÔÄ¶Á(1249)Ï²»¶(2)²»Ï²»¶(1)·ÖÀà£ºJavaScript/Ajax
+ÉÏÒ»Æª£ºdivÄ£Äâselect×óÓÒÒÆ¶¯Ğ§¹û
+ÏÂÒ»Æª£ºjavascript¼ì²éÒÆ¶¯Éè±¸ÊÇ·ñÖ§³ÖÖØÁ¦·½Ïò¸ĞÓ¦
+
+
+Ïà¹ØÎÄÕÂ
+chromeÍêÈ«È¡ÏûÍ¬Ô´·ÃÎÊ²ßÂÔ¿ØÖÆ
+chromeÎŞ·¨±£´æ±¾µØÉèÖÃcookie½â¾ö°ì·¨
+chromeä¯ÀÀÆ÷iframe parent.documentÎªundefined
+javascript¼ÓÔØxmlÎÄ¼ş

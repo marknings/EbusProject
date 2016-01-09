@@ -1,0 +1,19 @@
+<form name="homeForm">
+<div class="modal-header">
+	<p class="modal-title">{{title}}</p>
+</div>
+<div class="modal-body">
+	<div>
+		<div style="color:red;" class="row text-center">
+			{{message}}
+		</div>
+		</div>
+	</div>
+</div>
+<div class="modal-footer">
+	<p class="pull-right">
+		<button class="btn btn-default" ng-click="dismiss()">取消 </button>
+		<button class="btn btn-primary" ng-disabled="!homeForm.$valid" ng-click="close()">确定</button>
+	</p>
+</div>
+</form>
