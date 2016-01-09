@@ -1,0 +1,31 @@
+
+/*圆圈*/
+.badge-circle {
+  display: inline-block;
+  cursor:pointer;
+  min-width: 50px;
+  width:80px;
+  height:80px;
+  padding: 3px 7px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #46B589;
+  border-radius: 40px;
+}
+
+
+
+.title{
+  font-size:20px;
+  color:#5cb85c;
+  font-weight:bold;
+}
+
+.line{
+  border:solid 1px #5cb85c;
+}

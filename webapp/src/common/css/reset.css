@@ -3,3 +3,37 @@ img h1 h2 h3 h4 div ul p li {
 	margin: 0;
 	padding: 0;
 }
+
+.mt30{
+	margin-top:30px;
+}
+.mt18{
+	margin-top:18px;
+}
+.mt20{
+	margin-top:20px;
+}
+.mr20{
+	margin-right:20px;
+}
+
+.btn-fixed{
+	font-size:20px;
+	height: 60px;
+	width:200px;
+}
+.table.table-bus{
+	margin:0 auto;
+	width:300px;
+}
+.table-bus td {
+    border: 1px solid #5cb85c !important;
+    color:#666;
+    cursor: pointer;
+  }
+ .table-bus tbody tr>td:first-child {
+ 	border-left: none !important;
+ }
+ .table-bus tbody tr>td:last-child {
+ 	border-right: none !important;
+ }
