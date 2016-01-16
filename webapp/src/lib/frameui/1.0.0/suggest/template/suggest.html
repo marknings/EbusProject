@@ -1,0 +1,24 @@
+<div class=" autoComplete" ng-style="{ minWidth:width+'px'}" style="cursor:pointer;overflow-y:auto;overflow-x:hidden;border-radius:5px;max-height:300px;">
+ <div ng-if="isgroup">
+  <div ng-repeat="g in group">
+   <div>{{g.name}}</div>
+   <ul>
+    <li ng-mouseenter="mouseinItem($index)" ng-repeat="item in listdata | groupFilter:g.condition |filter:filterListData | limitTo:100" class="text-left" ng-click="clickItem(item)" ng-class="{1:'toselect',2:'active',3:''}[isSelect(item,$index)]">
+    {{item[name]}}<span ng-if="isShow(item[loginName])">({{item[loginName]}})</span>
+    </li>
+   </ul>
+  </div>
+ </div>
+ <div ng-if="!isgroup">
+   <ul ng-if="!!isobject">
+    <li ng-mouseenter="mouseinItem($index)" ng-repeat="item in listdata |filter:filterListData |orderBy:loginName | limitTo:100" class="text-left" ng-click="clickItem(item)" ng-class="{1:'active',2:'toselect',3:''}[isSelect(item,$index)]">
+    {{item[name]}}({{item[loginName]}})
+    </li>
+   </ul>
+   <ul ng-if="!!!isobject">
+    <li ng-mouseenter="mouseinItem($index)" ng-repeat="item in listdata |filter:filterListData |orderBy:loginName | limitTo:100" class="text-left" ng-click="clickItem(item)" ng-class="{1:'active',2:'toselect',3:''}[isSelect(item,$index)]">
+    {{item[name]}}
+    </li>
+   </ul>
+ </div>
+</div>

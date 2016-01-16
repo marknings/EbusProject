@@ -1,0 +1,60 @@
+<div class="container">
+	<div class="row text-center">
+		<div class="title">
+			购买月票
+		</div>
+	</div>
+	<div class="row text-center mt20">
+			<div class=" badge-circle  mr20">
+					<div class="row text-center mt18">
+					30 天
+					</div>
+					<div class="row text-center">
+					月 票
+					</div>
+			</div>
+			<div class="badge-circle  mr20">
+					<div class="row text-center mt18">
+					20 天
+					</div>
+					<div class="row text-center">
+					月 票
+					</div>
+			</div>
+	</div>
+	<div class="row mt20 font-grey">
+		<p>购票说明：30天有60张票，不限来回</p>
+		<p>购票说明：30天有60张票，不限来回</p>
+		<p>购票说明：30天有60张票，不限来回</p>
+		<p>购票说明：30天有60张票，不限来回</p>
+	</div>
+
+
+	<div class="row mt20 text-center">
+		<div class="btn-group">
+			<input select-popup ng-readonly="true" isobject="false" mode="'multiples'"
+				 ng-model="monthlineSelect" autocomplete="off" class="select-input form-control w200"
+				 placeholder="请选择月票线路"
+				 data="monthlineData"
+				 name="'value'"
+				 login-name="'key'"
+				 >
+		</div>
+	</div>
+	<div class="row mt20 text-center">
+		<div class="btn-group">
+		  <input select-popup ng-readonly="true" isobject="false" mode="'multiples'"
+				 ng-model="monthticketSelect" autocomplete="off" class="select-input form-control w200"
+				 placeholder="请选择所购月票"
+				 data="monthticketData"
+				 name="'value'"
+				 login-name="'key'"
+				 >
+		</div>
+	</div>
+	<div class="row mt20 text-center">
+		<button class="btn btn-success btn-fixed">
+			付款600元
+		</button>
+	</div>
+</div>

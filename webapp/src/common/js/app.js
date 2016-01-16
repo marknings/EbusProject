@@ -1,20 +1,29 @@
 angular.module('webapp',[
 	'ngRoute',
-	'frameui',
-	'BPM.messageDialog'
+	'szseui',
+	'bizui',
+	'BPM.messageDialog',
+	'home',
+	'monthticket',
+	'onceticket',
+	'applynew'
 	])
 .config(['$routeProvider','$httpProvider',function($routeProvider,$httpProvider){
 	$routeProvider
-		.when('/:website',{
-			/*templateUrl:'module/website/views/index.html',
-			controller:['$scope','baseController','$route',function($scope,baseController,$route){
-							var moduleName=$route.current.params.website+'/list';
-							var base=new baseController(moduleName,'website',$scope);
-							base.createCRUDPage();
-						}]*/
-			templateUrl:'module/home/views/index.html'
+		.when('/monthticket',{
+			templateUrl:'module/monthticket/views/index.html',
+			controller:'monthticketCtrl'
+		})
+		.when('/onceticket',{
+			templateUrl:'module/onceticket/views/index.html',
+			controller:'onceticketCtrl'
+		})
+		.when('/applynew',{
+			templateUrl:'module/applynew/views/index.html',
+			controller:'applynewCtrl'
 		})
 		.otherwise({
-			templateUrl:'module/home/views/index.html'
+			templateUrl:'module/home/views/index.html',
+			controller:'homeCtrl'
 		});
 }]);

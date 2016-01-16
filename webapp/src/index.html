@@ -1,15 +1,17 @@
 <!doctype html>
-<html ng-app='webapp'>
+<html>
 	<head>
 		<meta charset="utf-8">
 		<title>爱心楼巴</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
-		<link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap.css">
-		<link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap-theme.css">
-		<link href="common/css/reset.css" rel="stylesheet">
-		<link href="common/css/module.css" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link href="common/css/bizui.min.css" rel="stylesheet">
+		<link href="common/css/reset.min.css" rel="stylesheet">
+		<link href="common/css/module.min.css" rel="stylesheet">
+
 	</head>
-	<body>
+	<body ng-app='webapp'>
 		<div ng-include="'common/views/header.html'"></div>
 		<div style="min-height:650px;" class="container">
 			<div ng-view></div>
@@ -17,14 +19,21 @@
 		<div ng-include="'common/views/footer.html'"></div>
 	</body>
 	<script src="lib/jquery/1.10.2/jquery.min.js"></script>
-	<script src="lib/bootstrap/3.3.4/js/bootstrap.js"></script>
-	<script src="lib/angular/1.3.4/angular.js"></script>
-	<script src="lib/angular/1.3.4/angular-route.js"></script>
-	<script src="lib/angular/1.3.4/angular-resource.js"></script>
-	<script src="lib/angular/1.3.4/angular-animate.js"></script>
-	<script src="lib/frameui/1.0.0/frameui.js"></script>
+	<script src="lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="lib/angular/1.3.4/angular.min.js"></script>
+	<script src="lib/angular/1.3.4/angular-route.min.js"></script>
+	<script src="lib/angular/1.3.4/angular-resource.min.js"></script>
+	<script src="lib/angular/1.3.4/angular-animate.min.js"></script>
+	<script src="lib/frameui/1.0.0/frameui.min.js"></script>
+	<script src="lib/frameui/1.0.0/bizui.min.js"></script>
 
 	<script src="common/js/app.js"></script>
-	<script src="common/js/common.js"></script>
-	<script src="common/js/messageDialog.js"></script>
+	<script src="common/js/common.min.js"></script>
+	<script src="common/js/messageDialog.min.js"></script>
+
+	<script src="module/home/controls/homeCtrl.js"></script>
+	<script src="module/monthticket/controls/monthticketCtrl.js"></script>
+	<script src="module/onceticket/controls/onceticketCtrl.js"></script>
+	<script src="module/applynew/controls/applynewCtrl.js"></script>
+	
 </html>

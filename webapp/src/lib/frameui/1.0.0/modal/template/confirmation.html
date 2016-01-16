@@ -1,14 +1,22 @@
-<form name="homeForm">
-<div class="modal-header  header-primary">
-	<div class="modal-title">{{title}}</div>
+<i class="u-close pull-right" title="关闭" ng-click="cancel()">&nbsp;</i>
+<div class="modal-header header-primary">
+    <p class="modal-title">{{moduleName}}</p>
 </div>
 <div class="modal-body">
-	<div style="margin:30px;">{{message}}</div>
+ <div class="dialog-box">
+  <i class="u-dialog u-confirmation">&nbsp;</i>
+  <div class="p-l">
+   <p class="title">{{title}}</p>
+   <p ng-if="!mIsArray" class="f-s-14">
+    <span class="margin-t10" modal-bind-html="message"></span>   
+   </p>
+   <ul ng-if="mIsArray" ng-repeat="item in message track by $index" class="f-s-14">
+    <li class="margin-t10">{{item}}</li>
+   </ul>
+  </div>
+ </div>
 </div>
 <div class="modal-footer">
-	<p class="pull-right">
-		<button class="btn btn-default" ng-click="cancel()">取消 </button>
-		<button class="btn btn-primary"  ng-click="close()">确定</button>
-	</p>
+ <button class="btn btn-default" ng-click="cancel()">{{cancelName || "取消"}}</button>
+    <button class="btn btn-primary" ng-click="close()">{{okName || "确认"}}</button>    
 </div>
-</form>

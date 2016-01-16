@@ -1,0 +1,53 @@
+<div class="container">
+	<div class="row text-center">
+		<div class="title">
+			购买单程票
+		</div>
+	</div>
+	<div class="row mt20 font-grey">
+		<p>购票说明：30天有60张票，不限来回</p>
+		<p>购票说明：30天有60张票，不限来回</p>
+		<p>购票说明：30天有60张票，不限来回</p>
+		<p>购票说明：30天有60张票，不限来回</p>
+	</div>
+
+
+	<div class="row mt20 text-center">
+		<div class="btn-group">
+			<input select-popup ng-readonly="true" isobject="false" mode="'multiples'"
+				 ng-model="oncelineSelect" autocomplete="off" class="select-input form-control w200"
+				 placeholder="请选择线路"
+				 data="oncelineData"
+				 name="'value'"
+				 login-name="'key'"
+				 >
+		</div>
+	</div>
+	<div class="row mt20 text-center">
+		<div class="btn-group">
+		  <input select-popup ng-readonly="true" isobject="false" mode="'multiples'"
+				 ng-model="onceCountBusSelect" autocomplete="off" class="select-input form-control w200"
+				 placeholder="请选择车次"
+				 data="onceCountBusData"
+				 name="'value'"
+				 login-name="'key'"
+				 >
+		</div>
+	</div>
+	<div class="row mt20 text-center">
+		<div class="btn-group">
+		  <input select-popup ng-readonly="true" isobject="false" mode="'multiples'"
+				 ng-model="onceCountPerSelect" autocomplete="off" class="select-input form-control w200"
+				 placeholder="请选择人数"
+				 data="onceCountPerData"
+				 name="'value'"
+				 login-name="'key'"
+				 >
+		</div>
+	</div>
+	<div class="row mt20 text-center">
+		<button class="btn btn-success btn-fixed">
+			付款15元
+		</button>
+	</div>
+</div>

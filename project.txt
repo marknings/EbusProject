@@ -1,62 +1,72 @@
 dd
-GitHub�����ܽ� : �ܽῴ�����׾Ϳ��������ϸ����.
-GitHub�������� :
-��һ���ύ :  
-����һ : ���ش�����Ŀ��Ŀ¼, Ȼ����Զ��GitHub����, ֮��Ĳ���һ��;
--- ��ʼ��git�ֿ� :git init ;
--- �ύ�ı䵽���� :git commit -m 'description' ;
--- ����git�ֿ����GitHub�ֿ� : git remote add origin git@github.com:han1202012/TabHost_Test.git ;
--- �ύ��GitHub�� : git push -u origin master ;
-������ : ���������ǲ��ù���GitHub�ֿ�, ֱ�Ӵ�GitHub���¡Դ�뵽����, ��Ŀ��Ŀ¼Ҳ���ô���;
--- ��GitHub�Ͽ�¡��Ŀ������ :git clone git@github.com:han1202012/NDKHelloworld.git , ע���¡��ʱ��ֱ���ڲֿ��Ŀ¼����, �����ٴ�����Ŀ��Ŀ¼ ;
--- �����ļ� :git add ./* , ��Ŀ¼�������ļ�����;
--- �ύ���� :git commit -m '�ύ';
--- �ύ��Զ��GitHub�ֿ� : git push -u origin master ;
-֮���޸��ύ : 
--- ��GitHubԶ�ֿ̲�ͬ�� :git pull ;
--- �鿴�ļ���� : git status ;
--- �ύ���뵽���ػ��� : git commit -m 'description';
---�ύ���뵽Զ��GitHub�ֿ� :git push ;
-.gitignore�÷� : ����ģʽ ע�����Ե��ļ� ֱ���г��ļ���, ����ģʽ ע���������ļ� !�ļ��� ;
-Git��ǩ���� : ��������ǩ, ��ע�ͱ�ǩ;
---�鿴��ǩ :git tag ;
---���ӱ�ǩ : ��������ǩgit tag tagName , ��ע�ͱ�ǩgit tag -a tagName -m 'description' ;
---ɾ����ǩ :git tag -d tagName ;
---�ύ��ǩ��GitHub�� : git push origin --tags ;
-Git��֧����: ������֧��, ��֧��������Ӱ��master��֧, ����master��֧�ı��Ӱ������֧;
---�г���֧ :git branch ;
---�л���֧ :git checkout master ;
---�ύ��֧ : git push origin branchName ;
---ɾ����֧ : git branch -d branchName , ǿ��ɾ����֧ git branch -D branchName ;
---�ϲ���֧ : git merge branchName ;
+GitHub²Ù×÷×Ü½á : ×Ü½á¿´²»Ã÷°×¾Í¿´ÏÂÃæµÄÏêÏ¸½²½â.
+GitHub²Ù×÷Á÷³Ì :
+µÚÒ»´ÎÌá½» :  
+·½°¸Ò» : ±¾µØ´´½¨ÏîÄ¿¸ùÄ¿Â¼, È»ºóÓëÔ¶³ÌGitHub¹ØÁª, Ö®ºóµÄ²Ù×÷Ò»Ñù;
+-- ³õÊ¼»¯git²Ö¿â :git init ;
+-- Ìá½»¸Ä±äµ½»º´æ :git commit -m 'description' ;
+-- ±¾µØgit²Ö¿â¹ØÁªGitHub²Ö¿â : git remote add origin git@github.com:han1202012/TabHost_Test.git ;
+-- Ìá½»µ½GitHubÖÐ : git push -u origin master ;
+·½°¸¶þ : ·½°¸¶þ¾ÍÊÇ²»ÓÃ¹ØÁªGitHub²Ö¿â, Ö±½Ó´ÓGitHub³å¿ËÂ¡Ô´Âëµ½±¾µØ, ÏîÄ¿¸ùÄ¿Â¼Ò²²»ÓÃ´´½¨;
+-- ´ÓGitHubÉÏ¿ËÂ¡ÏîÄ¿µ½±¾µØ :git clone git@github.com:han1202012/NDKHelloworld.git , ×¢Òâ¿ËÂ¡µÄÊ±ºòÖ±½ÓÔÚ²Ö¿â¸ùÄ¿Â¼¼´¿É, ²»ÓÃÔÙ´´½¨ÏîÄ¿¸ùÄ¿Â¼ ;
+-- Ìí¼ÓÎÄ¼þ :git add ./* , ½«Ä¿Â¼ÖÐËùÓÐÎÄ¼þÌí¼Ó;
+-- Ìá½»»º´æ :git commit -m 'Ìá½»';
+-- Ìá½»µ½Ô¶³ÌGitHub²Ö¿â : git push -u origin master ;
+Ö®ºóÐÞ¸ÄÌá½» : 
+-- ÓëGitHubÔ¶³Ì²Ö¿âÍ¬²½ :git pull ;
+-- ²é¿´ÎÄ¼þ±ä¸ü : git status ;
+-- Ìá½»´úÂëµ½±¾µØ»º´æ : git commit -m 'description';
+--Ìá½»´úÂëµ½Ô¶³ÌGitHub²Ö¿â :git push ;
+.gitignoreÓÃ·¨ : ¿ª·ÅÄ£Ê½ ×¢Ã÷ºöÂÔµÄÎÄ¼þ Ö±½ÓÁÐ³öÎÄ¼þÃû, ±£ÊØÄ£Ê½ ×¢Ã÷±£ÁôµÄÎÄ¼þ !ÎÄ¼þÃû ;
+Git±êÇ©²Ù×÷ : ÇáÁ¿¼¶±êÇ©, ´ø×¢ÊÍ±êÇ©;
+--²é¿´±êÇ© :git tag ;
+--Ìí¼Ó±êÇ© : ÇáÁ¿¼¶±êÇ©git tag tagName , ´ø×¢ÊÍ±êÇ©git tag -a tagName -m 'description' ;
+--É¾³ý±êÇ© :git tag -d tagName ;
+--Ìá½»±êÇ©µ½GitHubÖÐ : git push origin --tags ;
+Git·ÖÖ§²Ù×÷: ´´½¨·ÖÖ§ºó, ·ÖÖ§²Ù×÷²»»áÓ°Ïìmaster·ÖÖ§, µ«ÊÇmaster·ÖÖ§¸Ä±ä»áÓ°ÆäËü·ÖÖ§;
+--ÁÐ³ö·ÖÖ§ :git branch ;
+--ÇÐ»»·ÖÖ§ :git checkout master ;
+--Ìá½»·ÖÖ§ : git push origin branchName ;
+--É¾³ý·ÖÖ§ : git branch -d branchName , Ç¿ÖÆÉ¾³ý·ÖÖ§ git branch -D branchName ;
+--ºÏ²¢·ÖÖ§ : git merge branchName ;
 
 
 
 
-��html������ק����chromeͨ��fileЭ�����ʱ�����͵�ajax���󱾵��ļ����ᱨ�������
+½«html´úÂëÍÏ×§½øÈëchromeÍ¨¹ýfileÐ­Òéä¯ÀÀÊ±£¬·¢ËÍµÄajaxÇëÇó±¾µØÎÄ¼þ£¬»á±¨¿çÓò´íÎó¡£
 
 XMLHttpRequest cannot load file:///E:/webs/extJS/ext-3.3.0/examples/csdn/combobox.txt?_dc=1414738973999. Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https, chrome-extension-resource.
 
-��������취�Ǹ�chrome��������������--allow-file-access-from-files ����������ajax����Ͳ��ᱨ��������ˡ���ע�������chrome���Ӷ������������ÿ������������--��֮ǰҪ�пո��������"C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-file-cookies --allow-file-access-from-files��
+¡¡¡¡½â¾ö°ì·¨ÊÇ¸øchromeÌí¼ÓÆô¶¯²ÎÊý£º--allow-file-access-from-files £¬ÕâÑù±¾µØajaxÇëÇó¾Í²»»á±¨¿çÓò´íÎóÁË¡££¨×¢ÒâÈç¹û¸øchromeÌí¼Ó¶à¸öÆô¶¯²ÎÊý£¬Ã¿¸öÆô¶¯²ÎÊý¡°--¡±Ö®Ç°ÒªÓÐ¿Õ¸ñ¸ô¿ª£¬Èç"C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-file-cookies --allow-file-access-from-files£©
 
  
 
-�����������chrome���������Ա�֧��fileЭ���µ�ajax���󣬾��忴�����chrome�޷����汾������cookie����취
+¡¡¡¡ÈçºÎÌí¼ÓchromeÆô¶¯²ÎÊýÒÔ±ãÖ§³ÖfileÐ­ÒéÏÂµÄajaxÇëÇó£¬¾ßÌå¿´Õâ¸ö£ºchromeÎÞ·¨±£´æ±¾µØÉèÖÃcookie½â¾ö°ì·¨
 
  
 
-����������--allow-file-access-from-files���������󣬻����Խ������file�����ļ�������iframe�͸�ҳ�޷��໥���ʣ�window.open�򿪵�ҳ��ʹ��openerΪnull�����⣬�ο���chrome���ز��Է���iframe��parent��opener null����취
+¡¡¡¡Ìí¼ÓÁË--allow-file-access-from-filesÆô¶¯²ÎÊýºó£¬»¹¿ÉÒÔ½â¾ö±¾µØfile¼ÓÔØÎÄ¼þ£¬µ¼ÖÂiframeºÍ¸¸Ò³ÎÞ·¨Ïà»¥·ÃÎÊ£¬window.open´ò¿ªµÄÒ³ÃæÊ¹ÓÃopenerÎªnullµÄÎÊÌâ£¬²Î¿¼£ºchrome±¾µØ²âÊÔ·ÃÎÊiframe£¬parent£¬opener null½â¾ö°ì·¨
 
 
 
-ԭ�����£�ת����ע������������chrome֧�ֱ��أ�fileЭ�飩ajax���� 2014-10-31����(0)Web������
-�Ķ�(1249)ϲ��(2)��ϲ��(1)���ࣺJavaScript/Ajax
-��һƪ��divģ��select�����ƶ�Ч��
-��һƪ��javascript����ƶ��豸�Ƿ�֧�����������Ӧ
+Ô­´´ÎÄÕÂ£¬×ªÔØÇë×¢Ã÷³ö´¦£ºÅäÖÃchromeÖ§³Ö±¾µØ£¨fileÐ­Òé£©ajaxÇëÇó 2014-10-31ÆÀÂÛ(0)Web¿ª·¢Íø
+ÔÄ¶Á(1249)Ï²»¶(2)²»Ï²»¶(1)·ÖÀà£ºJavaScript/Ajax
+ÉÏÒ»Æª£ºdivÄ£Äâselect×óÓÒÒÆ¶¯Ð§¹û
+ÏÂÒ»Æª£ºjavascript¼ì²éÒÆ¶¯Éè±¸ÊÇ·ñÖ§³ÖÖØÁ¦·½Ïò¸ÐÓ¦
 
 
-�������
-chrome��ȫȡ��ͬԴ���ʲ��Կ���
-chrome�޷����汾������cookie����취
-chrome�����iframe parent.documentΪundefined
-javascript����xml�ļ�
+Ïà¹ØÎÄÕÂ
+chromeÍêÈ«È¡ÏûÍ¬Ô´·ÃÎÊ²ßÂÔ¿ØÖÆ
+chromeÎÞ·¨±£´æ±¾µØÉèÖÃcookie½â¾ö°ì·¨
+chromeä¯ÀÀÆ÷iframe parent.documentÎªundefined
+javascript¼ÓÔØxmlÎÄ¼þ
+
+
+windows中的换行符为 CRLF， 而在linux下的换行符为LF，所以在执行add . 时出现提示，解决办法：
+$ rm -rf .git  // 删除.git
+$ git config --global core.autocrlf false  //禁用自动转换  
+
+然后重新执行：
+
+$ git init    
+$ git add .  
